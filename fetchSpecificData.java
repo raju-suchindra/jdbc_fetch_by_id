@@ -33,8 +33,8 @@ public class fetchSpecificData {
 
 			// 5. Processing the data
 			if(resultSet.next()) {
-				System.out.println(resultSet.getInt("studentid") + "  " +
-						resultSet.getString("studentName") + " " +
+				System.out.println(resultSet.getInt("studentid") + "   " +
+						resultSet.getString("studentName") + "  " +
 						resultSet.getInt("studentMobile") + " " +
 						resultSet.getString("studentEmail") + " " + 
 						resultSet.getString("CourseName"));
