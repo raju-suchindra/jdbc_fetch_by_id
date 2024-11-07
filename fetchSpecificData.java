@@ -4,7 +4,6 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.Scanner;
-import java.util.*;
 import first_jdbc_pgm.MyCon;
 
 public class fetchSpecificData {
