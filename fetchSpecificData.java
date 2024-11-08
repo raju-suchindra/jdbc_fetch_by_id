@@ -24,9 +24,7 @@ public class fetchSpecificData {
 			// 3.complete query -> Create sql query
 			//   Incomplete query -> prepare sql query
 			pstmt = con.prepareStatement(sql);
-
 			pstmt.setInt(1, studentId);
-
 			// 4. Executing query
 			resultSet = pstmt.executeQuery();
 
