@@ -5,7 +5,6 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.Scanner;
 import first_jdbc_pgm.MyCon;
-
 public class fetchSpecificData {
 	private static String sql = "Select * from students where studentId=?";
 	static Connection con;
